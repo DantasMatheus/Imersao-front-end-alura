@@ -189,7 +189,7 @@ h1 {
 
 .disclaimer-premium .disclaimer-premium__title{
     color:#fff; /* Cor do texto */
-    font-size: 14px; /* Tamanho da fonte */
+    font-size: 12px; /* Tamanho da fonte */
     font-weight: 400; /* Peso da fonte */
     text-transform: uppercase; /* Transformação do texto */
     margin-bottom: 10px; /* Espaçamento inferior */
@@ -197,7 +197,7 @@ h1 {
 
 .disclaimer-premium .disclaimer-premium__subtitle{
     color:#fff; /* Cor do texto */
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 14px; /* Tamanho da fonte */
     font-weight: 500; /* Peso da fonte */
     margin-bottom: 10px; /* Espaçamento inferior */
 }
