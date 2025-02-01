@@ -1,6 +1,7 @@
 body {
     background-color: #000;
 }
+
 h1 {
     color: #FFF;
     text-align: left;
@@ -85,12 +86,135 @@ h1 {
 .library .library__button .fa{
     font-size: 20px; /* Tamanho do ícone */
     font-weight: 300; /* Peso da fonte */
-    color: #b3b3b3;
     margin-right: 10px; /* Espaçamento direito */
     padding-right: 8px; /* Espaçamento interno direito */
 }
 
 .library .library__content .fa-plus{
     margin: 24px 10px; /* Espaçamento */
-     
+    cursor: pointer; /* Cursor */  
+}
+
+.section-playlist{
+    display: flex; /* Alinhamento dos itens */
+    align-items: flex-start; /* Alinhamento vertical */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+    background-color: #242424; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 8px 0px; /* Espaçamento */
+    padding: 16px 20px; /* Espaçamento interno */
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__content{
+    display: flex; /* Alinhamento dos itens */
+    flex-direction: column; /* Direção dos itens */
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px; /* Espaçamento inferior */
+    color: #fff; /* Cor do texto */
+    font-family: ""DM Sans", sans-serif"; /* Fonte */
+}
+
+.section-playlist__content .title{
+    font-weight: 700; /* Peso da fonte */
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500; /* Peso da fonte */
+    font-size: 12px; /* Tamanho da fonte */
+}
+
+.section-playlist__content .section-playlist__button{
+    background-color: #fff; /* Cor de fundo */
+    justify-content: center; /* Espaçamento entre os itens */
+    color: #000; /* Cor do texto */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 12px; /* Tamanho da fonte */
+    font-weight: 700; /* Peso da fonte */
+    font-family: "DM Sans", sans-serif; /* Fonte */
+    text-decoration: none; /* Decoração do texto */
+    text-transform: none; /* Transformação do texto */
+    padding: 10px; /* Espaçamento interno */
+    border: 0px; /* Borda */
+    margin-top: 12px; /* Espaçamento superior */
+    width: 113px; /* Largura */
+    cursor: pointer; /* Cursor */
+}
+
+.sidebar .cookies{
+    margin:25px 20px; /* Espaçamento */
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3; /* Cor do texto */
+    font-size: 10px; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    text-decoration: none; /* Decoração do texto */
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline; /* Decoração do texto */
+    color: green; /* Cor do texto */
+}
+
+.languages .languages__button{
+    background-color: transparent; /* Cor de fundo */
+    border: 1px solid #878787; /* Borda */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Cursor */
+    align-items: center; /* Alinhamento vertical */
+    font-weight: bold; /* Peso da fonte */
+    width: 170px; /* Largura */
+    margin: 8px; /* Espaçamento */
+    padding: 8px; /* Espaçamento interno */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+.disclaimer-premium{ 
+    background: rgb(1,2,48);
+    background: linear-gradient(90deg, rgba(1,2,48,1) 0%, rgba(128,8,154,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 15px 40px; /* Adicione um padding para espaçamento */
+    position: fixed; /* Posição relativa */
+    bottom: 0px; /* Posição inferior */
+    left: 0px; /* Posição esquerda */
+    right: 0px; /* Posição direita */
+    display: flex; /* Alinhamento dos itens */
+    justify-content: space-between; /* Espaçamento entre os itens */    
+}
+
+.disclaimer-premium .text{
+    flex-shrink: 0; /* Não encolher */
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color:#fff; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: 400; /* Peso da fonte */
+    text-transform: uppercase; /* Transformação do texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color:#fff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.disclaimer-premium button{
+    background-color: #fff; /* Cor de fundo */
+    color: #000; /* Cor do texto */
+    border-radius: 40px; /* Bordas arredondadas */
+    border: 0px; /* Borda */
+    padding: 14px 30px; /* Espaçamento interno */
+    font-weight: bold; /* Peso da fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    text-decoration: none; /* Decoração do texto */
+    text-transform: uppercase; /* Transformação do texto */
+    cursor: pointer; /* Cursor */
+    flex-shrink: 0; /* Não encolher */
 }
