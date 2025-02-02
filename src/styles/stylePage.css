@@ -171,6 +171,10 @@ h1 {
     border-radius: 20px; /* Bordas arredondadas */
 }
 
+.languages .languages__button span{
+    margin-right: 10px;
+}
+
 .disclaimer-premium{ 
     background: rgb(1,2,48);
     background: linear-gradient(90deg, rgba(1,2,48,1) 0%, rgba(128,8,154,1) 35%, rgba(0,212,255,1) 100%);
